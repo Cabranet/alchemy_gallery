@@ -1,0 +1,207 @@
+@charset "utf-8";
+body {
+  font-family: 'Exo', sans-serif;
+  margin: 0;
+  padding: 0;
+  color: #000;
+  background-color: #CCC;
+  background-image: url(../images/pg_bkgrd.png);
+}
+ul, ol, dl { 
+  padding: 0;
+  margin: 0;
+}
+h1, h2, h3, h4, h5, h6, p {
+  margin-top: 0;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-bottom: 0;
+}
+a img {
+  border: none;
+}
+a:link {
+  color: #003;
+  text-decoration: none;
+}
+a:visited {
+  color: #003;
+  text-decoration: none;
+}
+a:hover, a:active, a:focus { 
+  text-decoration: none;
+}
+.container {
+  width: 960px;
+  margin-top: 5px;
+  margin-right: auto;
+  margin-bottom: 5px;
+  margin-left: auto;
+  background-color: #fff;
+  border: solid 1px #000;
+  border-radius: 8px;
+}
+.header {
+  height: 143px;
+  background-color: #000;
+  background-image: url(../images/cabranet_title.png);
+  background-repeat: none;
+  border-bottom: solid 1px #000;
+  color: #fff;
+  border-radius: 8px 8px 0 0;
+}
+.language {
+  position: fixed;
+  padding: 5px;
+  width: 150px;
+  left: 5px;
+  bottom: 0;
+  background-color: #FFF;
+  border: 1px solid #003;
+  border-bottom: none;
+  border-radius: 3px 3px 0 0;
+  z-index: 99;
+  height: 20px;
+}
+.language img {
+  margin: 5px;
+}
+.content {
+  width: 900px;
+  margin-top: 0;
+  margin-right: auto;
+  margin-bottom: 0;
+  margin-left: auto;
+  padding-left: 0;
+  height: 900px;
+}
+.content ul, .content ol { 
+  padding: 0 15px 15px 40px;
+}
+.scroll-txt ul li  {
+  list-style-type: none;
+  margin: 0;
+  padding-top: 10px;
+  list-style-image: url(../images/star.png);
+  font-size: 16px;
+}
+
+.header a:link {
+  color: #fff;
+  text-decoration: none;
+}
+.header a:visited {
+  color: #fff;
+  text-decoration: none;
+}
+.header a:hover {
+  text-decoration: none;
+  color: #FFFF00;
+}
+.header ul li {
+  margin-top: 110px;
+  display: block;
+  float: right;
+  list-style-type: none;
+  padding-right:15px;
+  font-size:26px;
+}
+.show1, .show2, .show3 {
+  font-size: 8px;
+  display: block;
+  text-align: center;
+  padding: 0;
+  width: 10px;
+  height: 10px;
+  border: 1px solid #003;
+  border-radius: 3px;
+  cursor: pointer;
+  background-color: #A6BDD6;
+}
+.show1 {
+  position: absolute;
+  top: 295px;
+  left: 780px;
+}
+.show2 {
+  position: absolute;
+  top: 295px;
+  left: 795px;
+}
+.show3 {
+  position: absolute;
+  top: 295px;
+  left: 810px;
+}
+#next {
+  position: absolute;
+  height: 250px;
+  width: 200px;
+  top: 0;
+  right: 20px;
+  z-index: 50;
+  cursor: url(../images/cursors/cursor_arrow_right.cur), pointer;
+}
+#prev {
+  position: absolute;
+  height: 250px;
+  width: 200px;
+  top: 0;
+  left: 20px;
+  z-index: 50;
+  cursor: url(../images/cursors/cursor_arrow_left.cur), pointer;
+}
+.scroll-bar {
+  top: 0;
+  left: 0;
+  height: 316px;
+  width: 840px;
+  overflow: hidden;
+}
+.specials {
+  position: relative;
+  height: 316px;
+  width: 840px;
+  top: 50px;
+  left: 30px;
+  overflow: hidden;
+  border: 1px solid #003;
+  border-radius: 8px;
+}
+.scroll1, .scroll2, .scroll3 {
+  float: left;
+  border-radius: 8px;
+  user-select: none;
+}
+.scroll-txt {
+  width: 250px;
+  height: 316px;
+  margin: 30px;
+  background-color:#fff;
+  border-radius: 0 8px 8px 0;
+  float: right;
+  user-select: none;
+  
+}
+.scroll-bar img {
+  width: 500px;
+  height: 316px;
+  margin: 0;
+  float: left;
+  border-radius: 8px 0 0 8px;
+}
+.scroll-bar span {
+  float: left;
+  width: 840px;
+  height: 316px;
+}
+.scroll-txt h1 {
+  font-size: 18px;
+}
+.scroll-txt p {
+  font-size: 12px;
+}
+.language .social {
+  margin: 5px;
+  float: left;
+}
